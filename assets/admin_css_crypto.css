@@ -1,0 +1,177 @@
+
+
+.rg_sheet_display_on_hover{
+	position: relative;
+}
+.rg_sheet_display_on_hover:hover .rg_sheet_display_this{
+	left: 2%;
+}
+.rg_sheet_display_this{
+	position: absolute; background: #444444; color: #fff; padding: 10px; top: 110%; left: -110%; text-align: center; z-index: 3;
+}
+.rg_toggle_tab_title{
+	cursor: pointer; font-weight: 700; padding: 10px;
+}
+.rg_toggle_tab_title:hover,
+.rg_toggle_tab_title.actives{
+	color: #fff; background: #23282d; color: #fff;
+}
+.rg_tab_content{
+	padding: 10px 20px; display: none; background: rgb(50, 55, 60); color: rgb(255, 255, 255); width: auto; position: relative; overflow: hidden;
+}
+
+/*CURRENCIES*/
+
+.rg-select-currencies select option.im_selected{
+	font-weight: 800;
+}
+.rg-add-selected{
+	position: absolute;
+	z-index: 3;
+	background: #23282d;
+	width: 500%;
+	max-width: 300px;
+	padding: 5px 10px;
+	text-align: center;
+	top: 100%;
+	left: 30%;
+	margin-top: 2px;
+	display: none;
+	color: #fff;
+}
+.rg-selected-currencies span, .rg-selected-currencies_ span{
+	padding: 5px 8px 5px 25px;
+    background: #dddddd;
+    color: #23282d;
+    display: inline-block;
+    margin: 2px 3px;
+    cursor: pointer;
+    border:1px solid #23282d;
+    position: relative;
+    font-weight: 600;
+}
+
+.rg-selected-currencies span:hover, .rg-selected-currencies_ span:hover{
+	background: #fff;
+	color: #23282d;
+}
+.rg-selected-currencies span:hover .rg-add-selected, .rg-selected-currencies_ span:hover .rg-add-selected{
+	display: block;
+}
+.rg-selected-currencies, .rg-selected-currencies_{
+    padding: 10px;
+}
+.rg-selected-currencies_{
+	padding: 0;
+}
+.rg-select-currencies .save_selected, .rg-select-numbers .save_selected{
+	position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    font-weight: 600;
+    background: #23282d;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #23282d;
+    width: 100%;
+    max-width: 200px;
+    outline: none !important;
+    outline: unset !important;
+}
+
+.rg-select-currencies .save_selected:hover,
+.rg-select-numbers .save_selected:hover{
+	background: #fff;
+	color: #23282d;
+}
+
+.rg-select-numbers input{
+	padding: 10px;
+	height: unset;
+	line-height: 28px;
+}
+.rg-selected-currencies__ span{
+	display: none;
+}
+.rg__tabs .rg-title{
+	transition: ease .4s; -webkit-transition: ease .4s; padding: 10px;
+}
+.rg__tabs .rg-title:hover,
+.rg__tabs .rg-title.opening{
+	cursor: pointer;
+	color: #fff;
+    background: #23282d;
+}
+
+.rg-selected-currencies__.opened{
+	background: #ddd;
+    padding-bottom: 10px;
+}
+.rg-selected-currencies__ .rg-title{
+	
+}
+.rg-selected-currencies__.opened .rg-title,
+.rg-shortcodes-for-currencies .rg-title.opening,
+.rg-selected-currencies_ .rg-title.opened{
+	background: #23282d;
+    color: #fff;
+}
+
+/*.rg-shortcodes-for-currencies-content{
+	padding:10px; 
+    background: #0073aa;
+    color: #fff;
+    font-size: 16px;
+    display: none;
+}*/
+.rg-shortcodes-for-currencies-content table{
+	width: 100%;
+}
+.rg-shortcodes-for-currencies-content tbody tr td {
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    min-width: 400px;
+}
+
+.rg__tabs__content{
+	padding:10px;
+    background: #ddd;
+    color: #23282d;
+    font-size: 16px;
+    display: none;
+    font-weight: 600;
+}
+
+.__rg_black_small_btn{
+    display: inline-block;
+    font-weight: 600;
+    margin-top: 10px;
+    background: #23282d;
+    color: #fff;
+    padding: 5px 30px;
+    cursor: pointer;
+    border: 1px solid #23282d;
+    transition: ease .4s; -webkit-transition: ease .4s;
+}
+.__rg_black_small_btn:hover{
+	transition: ease .4s; -webkit-transition: ease .4s;
+	background: #fff;
+	color: #23282d;
+}
+
+.rg-samples-for-currencies_content i{
+	background: #0073aa;
+    color: #fff;
+    padding: 5px 10px;
+    display: inline-block;
+}
+.rg__item_hidden{
+    display: none;
+}
+.fa-exclamation{
+    color: red;
+}
+
+
+
